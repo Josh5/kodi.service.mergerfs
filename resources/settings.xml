@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category   label="30000">
+        <!-- TODO: Make the mount options configurable -->
+        <setting label="30009" type="folder" id="mount_options"  default="direct_io,defaults,allow_other,minfreespace=1G,fsname=mergerfs" option="writeable" />
+    </category>
+</settings>
